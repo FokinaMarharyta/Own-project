@@ -1,6 +1,50 @@
 body {
-    background-color: #3f3735;
+    background-color: #3A3230;
 }
-h1 {
+h2 {
     color: white;
+    text-align: left;
+}
+button {
+    all: unset;
+    padding: 0.8rem 1.4rem;
+    font-size: 20px;
+    background-color: #DEB887;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+}
+button.sign:hover {
+    box-shadow: 0 0 0 4px #3A3230,
+    0 0 0 8px #DEB887;
+}
+button.register:hover {
+    box-shadow: 0 0 0 4px #3A3230,
+    0 0 0 8px #DEB887;
+}
+button.sign {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+button.register {
+    position: fixed;
+    top: 20px;
+    right: 140px;
+}
+div h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 200px;
+}
+div.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #DEB887;
+    color: black;
+    text-align: left;
+    padding: 10px 0;
 }
